@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@media only screen and (max-width: 600px){
+    .wallet-balance-bar{
+        padding: 4px;
+        display: flex;
+        column-gap: 15px;
+        height: 24px;
+        font-size: 14px;
+        width: 10rem;
+        border-radius: 5px;
+        float: right;
+        margin-right: 2rem;
+        border: 1px solid;
+        box-shadow: 0px 2px 15px rgb(165, 164, 164);
+    }
+    .wallet-balance-bar p{
+        padding-top: 3px;
+            margin-top: -1px;
+    }
+    .account-profile2{
+        line-height: 8px;
+    }
+    .account-profile2 h5{
+        text-align: center;
+        font-size: 15px;
+    }
+    .account-profile2 p{
+        text-align: center;
+        color: gray;
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    .amount{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .pay-btn{
+        width: 25rem;
+        height: 3.5rem;
+        border-radius: 10px;
+        background-color: #1ab2e0;
+        border: none;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+    }
+    .dialpad{
+        margin: 2rem 3rem;
+    }
+    .dial{
+        display: grid;
+        row-gap: 1rem;
+        grid-template-columns: auto auto auto;
+    }
+    .dial-key{
+        width: 7rem;
+        height: 4rem;
+        font-size: 26px;
+        font-weight: 500;
+        box-shadow: 6px 2px 5px rgb(218, 217, 217);
+        border: none;
+
+    }
+}
+
+
+@media only screen and (min-width: 600px){
+
+    .navbar{
+        margin: 2rem 45rem;
+    }
+    .wallet-balance-bar{
+        padding: 4px;
+        display: flex;
+        column-gap: 15px;
+        height: 24px;
+        font-size: 14px;
+        width: 10rem;
+        border-radius: 5px;
+        margin-left: 65rem;
+        border: 1px solid;
+        box-shadow: 0px 2px 15px rgb(165, 164, 164);
+    }
+    .wallet-balance-bar p{
+        padding-top: 3px;
+            margin-top: -1px;
+    }
+    .account-profile2{
+        text-align: center;
+        line-height: 8px;
+    }
+    .account-profile2 h5{
+        font-size: 15px;
+    }
+    .account-profile2 p{
+        color: gray;
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    .amount{
+        text-align: center;
+    }
+    .pay-btn{
+        width: 25rem;
+        height: 3.5rem;
+        border-radius: 10px;
+        background-color: #1ab2e0;
+        border: none;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+    }
+    .dialpad{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .dial{
+        display: grid;
+        row-gap: 1rem;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        column-gap: 1rem;
+    }
+    .dial-key{
+        width: 7rem;
+        height: 4rem;
+        font-size: 26px;
+        font-weight: 500;
+        box-shadow: 6px 2px 5px rgb(218, 217, 217);
+        border: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@media only screen and (max-width: 600px){
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .navbar{
+        margin: 2rem;
+        display:flex;
+        flex-direction: row;
+        column-gap: 10rem;
+    }
+    .navbar p{
+        margin-top: -1px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .profile-switch{
+        padding: 5px;
+        padding-top: 10px;
+        background: linear-gradient(#39aed1, #ade8f4);
+        display: flex;
+        column-gap: 5px;
+        height: 25px;
+        font-size: 14px;
+        width: 11rem;
+        border-radius: 5px;
+        float: right;
+        margin-right: 2rem;
+        box-shadow: 0px 2px 15px rgb(165, 164, 164);
+    }
+    .profile-switch p{
+        margin-top: -1px;
+        color: white;
+    }
+    img.profile{
+        margin-left: 11rem;
+        margin-top: 2rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    .account-profile{
+        line-height: 8px;
+    }
+    .account-profile h5{
+        text-align: center;
+        font-size: 15px;
+    }
+    .account-profile p{
+        text-align: center;
+        color: gray;
+        font-size: 14px;
+        margin-top: -5px;
+    }
+    .account-balance{
+        
+        text-align: center;
+        background-color: #1ab2e0;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-top: 4rem;
+        color: white;
+        height: 7rem;
+        border-radius: 15px;
+        line-height: 20px;
+    }
+    .account-balance p{
+        padding-top: 1rem;
+    }
+    .account-balance h1{
+        font-weight:500;
+    }
+    .services-heading{
+        
+        border: 1px solid rgb(206, 203, 203);
+        padding:0 15px;
+        margin: 3rem 3rem;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+    .services{
+        display: grid;
+        font-size: 12px;
+        line-height: 17px;
+        color: #077da1;
+        grid-template-columns: auto auto auto;
+    }
+    .services-row-2{
+        margin-top: 1rem;
+        display: grid;
+        font-size: 12px;
+        line-height: 17px;
+        color: #077da1;
+        grid-template-columns: auto auto auto;
+        padding-bottom: 2rem;
+    }
+    .recharge{
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: #d7f4fa;
+        border-radius: 8px;
+        height: 4rem;
+        cursor: pointer;
+    }
+    .recharge p{
+        color: #077da1;
+    }
+  
+    .order-food{
+        margin-left: 1rem;
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: #d7f4fa;
+        border-radius: 8px;
+    }
+    .re-history{
+        margin-left: 1rem;
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: #d7f4fa;
+        border-radius: 8px;
+    }
+    .order-report{
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: #d7f4fa;
+        border-radius: 8px;
+        width: 5.5rem;
+        height: 4.5rem;
+    }
+    .cons-report{
+        padding-top: 15px;
+        padding-left: 10px;
+        background-color: #d7f4fa;
+        border-radius: 8px;
+        width: 6.5rem;
+        height: 4.5rem;
+        margin-left: -3.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px){
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    column-gap: 10rem
+}
+.navbar p{
+    margin-top: -1px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img.profile{
+    margin-top: 2rem;
+    width: 8rem;
+    height: 8rem;
+}
+.account-profile{
+    text-align: center;
+    line-height: 8px;
+}
+.account-profile h5{
+    text-align: center;
+    font-size: 15px;
+}
+.account-profile p{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.account-balance{
+    text-align: center;
+    background-color: #1ab2e0;
+    width: 25rem;
+    margin-left: 47rem;
+    margin-top: 4rem;
+    color: white;
+    height: 7rem;
+    border-radius: 15px;
+    line-height: 20px;
+}
+.account-balance p{
+    padding-top: 1rem;
+}
+.account-balance h1{
+    font-weight:500;
+}
+.services-heading{
+    border: 1px solid rgb(206, 203, 203);
+    padding:0 15px;
+    margin: 3rem 47rem;
+    border-radius: 15px;
+    font-size: 14px;
+    width: 23rem;
+}
+.services{
+    display: grid;
+    font-size: 12px;
+    line-height: 17px;
+    color: #077da1;
+    grid-template-columns: auto auto auto;
+}
+.services-row-2{
+    margin-top: 1rem;
+    display: grid;
+    font-size: 12px;
+    line-height: 17px;
+    color: #077da1;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 2rem;
+}
+.recharge{
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #d7f4fa;
+    border-radius: 8px;
+    height: 4rem;
+}
+.recharge p{
+    color: #077da1;
+}
+
+.order-food{
+    margin-left: 1rem;
+    padding-left: 10px;
+    padding-top: 15px;
+    background-color: #d7f4fa;
+    border-radius: 8px;
+}
+.re-history{
+    margin-left: 1rem;
+    padding-top: 15px;
+    background-color: #d7f4fa;
+    padding-left: 10px;
+
+    border-radius: 8px;
+}
+.order-report{
+    padding-top: 15px;
+    background-color: #d7f4fa;
+    border-radius: 8px;
+    padding-left: 10px;
+    width: 5.5rem;
+    height: 4.5rem;
+}
+.cons-report{
+    padding-top: 15px;
+    background-color: #d7f4fa;
+    border-radius: 8px;
+    width: 6.5rem;
+    height: 4.5rem;
+    margin-left: -3.5rem;
+    padding-left: 10px;
+
+}
+.MuiPaper-root{
+    margin-left: 47rem;
+    width: 30rem;
+}
+}

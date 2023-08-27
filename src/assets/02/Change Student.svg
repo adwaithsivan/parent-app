@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="46" viewBox="0 0 148 46">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0094d3"/>
+      <stop offset="1" stop-color="#75deff"/>
+    </linearGradient>
+    <filter id="Rectangle_179" x="0" y="0" width="148" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_970" x="7.759" y="6.393" width="33.421" height="33.421" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Change_Student" data-name="Change Student" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_179)">
+      <rect id="Rectangle_179-2" data-name="Rectangle 179" width="130" height="28" rx="5" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_ionic-ios-arrow-up" data-name="Icon ionic-ios-arrow-up" d="M9.782,12.489l2.718,2.72a.514.514,0,1,0,.725-.728L10.146,11.4a.513.513,0,0,0-.708-.015l-3.1,3.094a.514.514,0,0,0,.725.728Z" transform="translate(130.375 28.36) rotate(180)" fill="#fff"/>
+    <text id="Change_Account" data-name="Change Account" transform="translate(28 18)" fill="#fff" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Change Account</tspan></text>
+    <g id="Group_326" data-name="Group 326" transform="translate(7.759 6.393)">
+      <g id="Group_327" data-name="Group 327">
+        <g transform="matrix(1, 0, 0, 1, -16.76, -12.39)" filter="url(#Path_970)">
+          <path id="Path_970-2" data-name="Path 970" d="M15.421,7.711A7.711,7.711,0,1,1,7.711,0a7.711,7.711,0,0,1,7.711,7.711" transform="translate(16.76 12.39)" fill="#fff"/>
+        </g>
+        <path id="Path_971" data-name="Path 971" d="M48.9,70.871c-.287-.04-.575-.071-.859-.122A7.644,7.644,0,0,1,44.374,69a8.617,8.617,0,0,1-.786-.785.277.277,0,0,1-.069-.287,6.14,6.14,0,0,1,3.95-4.168c.037-.013.093-.014.1-.056.011-.065-.054-.09-.1-.121a3.112,3.112,0,0,1-1.2-1.951,3.168,3.168,0,0,1,1.439-3.274,3.071,3.071,0,0,1,3.164-.133A3.011,3.011,0,0,1,52.568,60.6a3.088,3.088,0,0,1-1.2,2.971c-.042.034-.112.061-.107.117.007.072.091.065.144.084a6.078,6.078,0,0,1,3.375,2.85,6.5,6.5,0,0,1,.527,1.29.286.286,0,0,1-.065.3,7.656,7.656,0,0,1-4.678,2.572c-.212.033-.425.058-.637.086Z" transform="translate(-41.704 -55.45)" fill="#c6c3bd"/>
+      </g>
+    </g>
+  </g>
+</svg>
